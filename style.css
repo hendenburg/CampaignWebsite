@@ -36,6 +36,7 @@ body {
     height: auto;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #heroimage {
@@ -44,12 +45,13 @@ body {
 
 
 #navlink1 {
-    display: table;
+    display: block;
     width: 100%;
     height: 25%;
     background: #56CCF2;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
 }
 
 #navlink1:hover {
@@ -81,7 +83,7 @@ body {
     background: #2b5876;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    position: relative;
 }
 
 #navlink3:hover {
@@ -91,13 +93,13 @@ body {
 }
 
 #navlink4 {
-    display: table;
+    display: block;
     width: 100%;
     height: 25%;
     background: #141E30;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    position: relative;
 }
 
 #navlink4:hover {
@@ -109,14 +111,12 @@ body {
 #navtext {
     width: 50%;
     height: 100%;
-    padding-left: 51%;
     text-align: center;
     font-family: nav;
     color: white;
-    line-height: 100%;
-    font-size: 5vh;
     vertical-align: middle;
-    display:table-cell
+    display: block;
+    position: relative;
 }
 
 a {
@@ -127,9 +127,53 @@ a {
 #nav {
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
 	position: absolute;
-=======
     position: absolute;
->>>>>>> 78c0c29348d038af3a9d53b3aaeee87178bd97f9
+}
+
+#navtext1 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-family: nav;
+    font-size: 5vh;
+    vertical-align: middle;
+    display: block;
+    position: relative;
+}
+
+#navimg {
+    width: 60%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 80%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin-left: 55%;
+}
+
+#navimg1 {
+    width: 60%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin-left: 60%;
+    max-height: 80%;
+}
+
+#navimg2 {
+    width: 80%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin-left: 60%;
+    max-height: 80%;
 }

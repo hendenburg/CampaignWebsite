@@ -89,8 +89,8 @@ body {
     padding: 0;
     margin: 0;
     background: #56CCF2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2f61ed, #56a9f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
 }
 
@@ -101,8 +101,8 @@ body {
     padding: 0;
     margin: 0;
     background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #2691d0, #3f1a80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2691d0, #3f1a80); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
 }
 
@@ -132,11 +132,7 @@ body {
 }
 
 
-#navlink2:hover {
-    background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2691d0, #3f1a80);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2691d0, #3f1a80); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 
 #navlink3:hover {
     background: #2b5876;
@@ -149,6 +145,13 @@ body {
     background: -webkit-linear-gradient(to right, #2c2454, #1f1430);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c2454, #1f1430); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+#navlink1:hover {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f61ed, #56a9f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #imglink {
     width: 65%;
     display: block;

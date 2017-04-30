@@ -92,6 +92,7 @@ body {
     background: -webkit-linear-gradient(to top, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #2f61ed, #56a9f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
+
 }
 
 #navlink2 {
@@ -226,17 +227,4 @@ h3 {
 
 #navimg1 {
     
-}
-
-#imglinkc {
-    width: 84%;
-    display: block;
-    height: auto;
-    vertical-align: bottom;
-    position: absolute;
-    bottom: 2%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
 }

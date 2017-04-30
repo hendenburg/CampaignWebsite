@@ -11,6 +11,8 @@ body {
     position: absolute;
     margin: 0;
     padding: 0;
+    background-image: url(../Images/background.png);
+    background-repeat: repeat;
 }
 
 #main {
@@ -18,7 +20,7 @@ body {
     height: 100%;
     background-image: url(../Images/background.png);
     background-repeat: repeat;
-    position: absolute;
+    position: relative;
 }
 
 #header {
@@ -40,7 +42,6 @@ body {
     box-shadow: 0px 0px 30px -3px rgba(0,0,0,0.57);
     z-index: 4;
     position: absolute;
-    position: fixed;
 }
 #header-image {
     width: 70%;
@@ -70,7 +71,6 @@ body {
     max-width: 1000px;
     height: 17%;
     position: absolute;
-    position: fixed;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -92,7 +92,11 @@ body {
     background: -webkit-linear-gradient(to top, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #2f61ed, #56a9f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
-
+}
+#navlink1:hover {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2f61ed, #56a9f1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f61ed, #56a9f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #navlink2 {
@@ -114,9 +118,9 @@ body {
     display: inline-block;
     padding: 0;
     margin: 0;
-    background: #2b5876;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2b5876;
+    background: -webkit-linear-gradient(to top, #614376, #2b4076);
+    background: linear-gradient(to top, #614376, #2b4076);
     position: relative
 }
 
@@ -139,11 +143,7 @@ body {
     background: linear-gradient(to top, #2691d0, #3f1a80); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#navlink3:hover {
-    background: #2b5876;
-    background: -webkit-linear-gradient(to top, #614376, #2b4076);
-    background: linear-gradient(to top, #614376, #2b4076);
-}
+
 
 #navlink4:hover {
     background: #141E30;  /* fallback for old browsers */
@@ -219,12 +219,31 @@ p {
 h3 {
     font-family: "Open Sans", serif;
     padding: 0;
-    margin: 10px;
-    color: white
 }
 
 
 
 #navimg1 {
     
+}
+
+#imglinkc {
+    width: 84%;
+    display: block;
+    height: auto;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-family: "Open Sans", serif;
+}
+
+h4 {
+    font-family: "Open Sans", serif;
 }

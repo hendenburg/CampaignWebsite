@@ -10,3 +10,78 @@
     width: auto !important;
     margin: auto;
 }
+#navlink1 {
+    height: 50% !important
+}
+
+#navlink2 {
+    height: calc(50% /3)
+}
+
+#navlink3 {
+    height: calc(50% / 3)
+}
+
+#navlink4 {
+    height: calc(50% / 3)
+}
+
+#navimg3 {
+    width: auto !important;
+    height: 55% !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navimg2 {
+    width: auto !important;
+    height: 55% !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#navimg1 {
+    width: 65% !important;
+    margin-left: auto !important;
+    margin-top: 0 !important;
+    top: auto !important;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+    bottom: 12%
+}
+
+#navimg {
+    width: 50% !important;
+    margin-left: auto !important;
+    margin-top: 0 !important;
+    top: auto !important;
+    bottom: 5% !important;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navtext1 {
+    width: 100% !important;
+}
+
+#navtext {
+    width: 100% !important;
+}

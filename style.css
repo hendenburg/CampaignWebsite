@@ -41,6 +41,9 @@ body {
 }
 
 #heroimage {
+    width: 70%; 
+    height: auto; 
+    padding-left: 5%
 }
 
 
@@ -68,7 +71,7 @@ body {
     background: #1A2980;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    position: relative;
 }
 
 #navlink2:hover {
@@ -131,7 +134,7 @@ a {
 	position: absolute;
 }
 
-#navtext1 {
+#navtext2 {
     width: 50%;
     height: 100%;
     text-align: center;
@@ -155,7 +158,7 @@ a {
 }
 
 #navimg1 {
-    width: 60%;
+    width: 80%;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
@@ -167,7 +170,30 @@ a {
 }
 
 #navimg2 {
-    width: 80%;
+    width: 60%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin-left: 60%;
+    max-height: 80%;
+}
+
+#navtext1 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-family: nav;
+    font-size: 5vh;
+    vertical-align: middle;
+    display: block;
+    position: relative;
+}
+
+#navimg3 {
+    width: 60%;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;

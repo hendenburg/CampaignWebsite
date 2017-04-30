@@ -127,5 +127,9 @@ a {
 #nav {
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
+	position: absolute;
+=======
     position: absolute;
+>>>>>>> 78c0c29348d038af3a9d53b3aaeee87178bd97f9
 }

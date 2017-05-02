@@ -11,6 +11,8 @@ body {
     position: absolute;
     margin: 0;
     padding: 0;
+        background-image: url(../Images/background.png);
+    background-repeat: repeat;
 }
 
 #main {
@@ -182,6 +184,7 @@ body {
     height: auto;
     margin: auto;
     position: relative;
+    padding-top: 30px
 }
 
 h1 {
@@ -218,7 +221,6 @@ h3 {
     font-family: "Open Sans", serif;
     padding: 0;
     margin: 10px;
-    color: white
 }
 
 
@@ -238,4 +240,9 @@ h3 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+}
+
+#poster {
+    width: 100%;
+    height: auto;
 }
